@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yellowtail&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position {
+    position: absolute;
+}
+
+.l-top {
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+}
+
+.r-top {
+    border-radius: 10px;
+    right: 0;
+    top: 0;
+}
+
+.l-bottom {
+    border-radius: 10px;
+    left: 0;
+    bottom: 0;
+}
+
+.r-bottom {
+    border-radius: 10px;
+    right: 0;
+    bottom: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.min-vh-100 {
+    height: 100vh;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.card {
+    margin: auto;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 13px 50px 0px #737B9A33;
+    align-content: center;
+}
+
+.page {
+    font-family: 'poppinss', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    color: #737B9A;
+    height: 29px;
+}
+
+.heading {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 77.54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    color: #252930;
+
+}
+
+.btn {
+    font-family: 'Poppinss', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    border: 2px solid #4D73F8;
+    background-color: #4D73F8;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 285px;
+    cursor: pointer;
+}
+
+.cross {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
